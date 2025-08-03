@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+  <html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Video Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+
+    <header class="navbar">
+      <div class="container">
+        <div class="logo">
+          <span class="icon"><i class="fas fa-camera"></i></span>
+          <span class="brand">Wedding Video Pro</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#">Bosh sahifa</a>
+          <a href="#">Xizmatlar</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Biz haqimizda</a>
+          <a href="#">Aloqa</a>
+        </nav>
+        <a href="#" class="btn-primary">Buyurtma berish</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="top-text">⭐⭐⭐⭐⭐ 100+ baxtli juftliklar</p>
+        <h1>To'y videolari <br> <span>professional montaj</span></h1>
+        <p class="description">Sizning eng muhim kuningizni abadiy saqlab qolish uchun yuqori sifatli video montaj xizmatlari. Professional jihozlar va tajribali mutaxassislar bilan.</p>
+        <div class="buttons">
+          <a href="#" class="btn-primary">▶ Portfolio ko‘rish</a>
+          <a href="#" class="btn-secondary">Bepul konsultatsiya</a>
+        </div>
+        <div class="stats">
+          <div><span>5+</span><p>Yillik tajriba</p></div>
+          <div><span>100+</span><p>Baxtli juftliklar</p></div>
+          <div><span>500+</span><p>Video loyihalar</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2 class="section-title">Bizning xizmatlar</h2>
+        <p class="section-subtitle">
+          To‘yingizning barcha jihatlari uchun professional video va foto xizmatlar. Yuqori sifat va tez yetkazish kafolatlanadi.
+        </p>
+        <div class="service-cards">
+          <div class="service-card">
+            <div class="icon"><i class="fas fa-video"></i></div>
+            <h3>To'y videosini yozib olish</h3>
+            <p>Professional kameralar bilan to‘yingizning barcha muhim lahzalarini yozib olamiz</p>
+            <ul>
+              <li>4K sifatida</li>
+              <li>Bir nechta kameralar</li>
+              <li>Professional yoritish</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="icon"><i class="fas fa-film"></i></div>
+            <h3>Video montaj</h3>
+            <p>Sizning videolaringizni professional darajada tahrir qilamiz</p>
+            <ul>
+              <li>Ranglarini tuzatish</li>
+              <li>Shovqinni tozalash</li>
+              <li>Effektlar qo‘shish</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="icon"><i class="fas fa-palette"></i></div>
+            <h3>Rang tuzatish</h3>
+            <p>Videolaringizga professional rang gradatsiyasi va stilizatsiya</p>
+            <ul>
+              <li>Professional LUT</li>
+              <li>Rang balansini sozlash</li>
+              <li>Atmosfera yaratish</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="section-title">Bizning ishlarimiz</h2>
+        <p class="section-subtitle">
+          Biz yaratgan eng chiroyli to‘y videolarini ko‘ring. Har bir loyiha o‘zining noyob hikoyasi va professional yondashuviga ega.
+        </p>
+        <a href="#" class="btn-secondary">Barcha ishlarni ko‘rish</a>
+    
+        <div class="video-cards">
+          <div class="video-card">
+            <div class="video-thumb" data-video="/video/video.mp4">
+              <span class="duration">15 daqiqa</span>
+              <button class="play-btn">▶ Ko‘rish</button>
+            </div>
+            <h3>Rustam va Dilnoza</h3>
+            <p>To‘y videosi</p>
+          </div>
+          <div class="video-card">
+            <div class="video-thumb" data-video="video2.mp4">
+              <span class="duration">8 daqiqa</span>
+              <button class="play-btn">▶ Ko‘rish</button>
+            </div>
+            <h3>Jasur va Madinabonu</h3>
+            <p>Kelin salom</p>
+          </div>
+          <div class="video-card">
+            <div class="video-thumb" data-video="video3.mp4">
+              <span class="duration">12 daqiqa</span>
+              <button class="play-btn">▶ Ko‘rish</button>
+            </div>
+            <h3>Abbos va Shahzoda</h3>
+            <p>Nikoh videosi</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Modal -->
+      <div class="video-modal" id="videoModal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <video id="modalVideo" src="" controls autoplay></video>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <script src="./script.js"></script>
+  </body>
+  </html>
