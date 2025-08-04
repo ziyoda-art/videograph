@@ -96,6 +96,7 @@
         <div class="video-cards">
           <div class="video-card">
             <div class="video-thumb" data-video="/video/video.mp4">
+              <img src="./img/photo.png" alt="" width="100%" height="100%">
               <span class="duration">15 daqiqa</span>
               <button class="play-btn">▶ Ko‘rish</button>
             </div>
@@ -103,7 +104,8 @@
             <p>To‘y videosi</p>
           </div>
           <div class="video-card">
-            <div class="video-thumb" data-video="video2.mp4">
+            <div class="video-thumb" data-video="/video/video.mp4">
+              <img src="./img/photo.png" alt="" width="100%" height="100%">
               <span class="duration">8 daqiqa</span>
               <button class="play-btn">▶ Ko‘rish</button>
             </div>
@@ -111,7 +113,8 @@
             <p>Kelin salom</p>
           </div>
           <div class="video-card">
-            <div class="video-thumb" data-video="video3.mp4">
+            <div class="video-thumb" data-video="/video/video.mp4">
+              <img src="./img/photo.png" alt="" width="100%" height="100%">
               <span class="duration">12 daqiqa</span>
               <button class="play-btn">▶ Ko‘rish</button>
             </div>
@@ -125,12 +128,161 @@
       <div class="video-modal" id="videoModal">
         <div class="modal-content">
           <span class="close-modal">&times;</span>
-          <video id="modalVideo" src="" controls autoplay></video>
+          <video id="modalVideo" src="/video/video.mp4" controls ></video>
         </div>
       </div>
     </section>
 
+    <section class="featured">
+      <div class="container">
+        <h2 class="section-title">Eng mashhur ishimiz</h2>
+        <p class="section-subtitle">
+          O‘tmishda yaratgan eng chiroyli va eng ko‘p ko‘rilgan to‘y videomizni ko‘ring. Bu loyiha bizning professional darajamizni yaqqol namoyon etadi.
+        </p>
+    
+        <div class="featured-video" data-video="/video/video.mp4">
+          <div class="video-preview">
+            <img src="./img/foto-p.png" alt="" width="100%" height="100%">
+          </div>
+          <button class="play-btn-large">▶ Videoni ko‘rish</button>
+        </div>
+      </div>
+    
+      <!-- Modal -->
+      <div class="video-modal" id="videoModalFeatured">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <video id="modalVideoFeatured" src="/video/video.mp4" controls ></video>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Biz haqimizda</h2>
+        <p class="section-subtitle" style="text-align: center;">
+          Biz professional video montaj xizmatlarini taqdim etuvchi jamoamiz.
+          Har bir loyihaga individual yondashuv va yuqori sifat kafolatlaymiz.
+        </p>
+  
+        <div class="mission-container">
+          <div class="mission-text">
+            <h3 class="mission-title">Bizning missiyamiz</h3>
+            <p class="mission-desc">
+              Biz har bir to‘yning noyob hikoyasini professional video orqali
+              abadiy saqlab qolishga yordam beramiz. Bizning maqsadimiz —
+              sizning eng muhim kuningizni eng chiroyli va ta’sirli tarzda aks ettirish.
+            </p>
+            <p class="mission-desc">
+              Professional jihozlar, zamonaviy texnologiyalar va ijodiy yondashuvimiz orqali
+              har bir loyihani o‘ziga xos asarga aylantiramiz.
+            </p>
+  
+            <div class="features">
+              <div class="service-card-2">🎓 <strong>Professional sertifikat</strong><br />Video montaj bo‘yicha xalqaro sertifikatga ega</div>
+              <div class="service-card-2">👰 <strong>100+ mijoz</strong><br />Yuzlab baxtli juftliklar bilan ishlaganmiz</div>
+              <div class="service-card-2">🕔 <strong>5 yillik tajriba</strong><br />Video montaj sohasida uzoq yillik tajriba</div>
+              <div class="service-card-2">💛 <strong>Mijozlar sevgisi</strong><br />Barcha mijozlarimiz bizni tavsiya qilishadi</div>
+            </div>
+          </div>
+  
+          <div class="mission-image">
+            <img src="/img/foto-k.png" alt="Video montaj">
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="team-section">
+      <h2>Bizning jamoa</h2>
+      <p>Professional mutaxassislar jamoasi sizning loyihangiz ustida ishlaydi</p>
+      <div class="team-members">
+        <div class="team-member">
+          <div class="icon">
+            <i class="fa-solid fa-user-circle"></i>
+            <span class="initials">UK</span>
+          </div>
+          <h3>Umid Karimov</h3>
+          <p class="role">Bosh video editor</p>
+          <p class="experience">5 yil tajriba</p>
+          <p class="specialty">Wedding cinematography</p>
+        </div>
+    
+        <div class="team-member">
+          <div class="icon">
+            <i class="fa-solid fa-user-circle"></i>
+            <span class="initials">SY</span>
+          </div>
+          <h3>Sevara Yusupova</h3>
+          <p class="role">Creative director</p>
+          <p class="experience">4 yil tajriba</p>
+          <p class="specialty">Color grading va effects</p>
+        </div>
+    
+        <div class="team-member">
+          <div class="icon">
+            <i class="fa-solid fa-user-circle"></i>
+            <span class="initials">JT</span>
+          </div>
+          <h3>Jasur Toshmatov</h3>
+          <p class="role">Audio specialist</p>
+          <p class="experience">6 yil tajriba</p>
+          <p class="specialty">Sound design va mixing</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3><i class="fa-solid fa-camera"></i> Wedding Video Pro</h3>
+          <p>Professional to'y videolarini yaratishda 5 yillik tajriba. Sizning eng muhim kuningizni abadiy saqlab qolamiz.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#" aria-label="Chat"><i class="fa-solid fa-comment"></i></a>
+          </div>
+        </div>
+    
+        <div class="footer-links">
+          <h4>Tezkor havolalar</h4>
+          <ul>
+            <li><a href="#">Bosh sahifa</a></li>
+            <li><a href="#">Xizmatlar</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Biz haqimizda</a></li>
+            <li><a href="#">Aloqa</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-services">
+          <h4>Xizmatlar</h4>
+          <ul>
+            <li><a href="#">To'y videosini yozib olish</a></li>
+            <li><a href="#">Video montaj</a></li>
+            <li><a href="#">Rang tuzatish</a></li>
+            <li><a href="#">Audio ishlov berish</a></li>
+            <li><a href="#">Foto montaj</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-contact">
+          <h4>Aloqa</h4>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> +998 90 123 45 67</li>
+            <li><i class="fa-solid fa-envelope"></i> info@weddingvideo.uz</li>
+            <li><i class="fa-solid fa-location-dot"></i> Toshkent shahar, Yunusobod tumani<br> Amir Temur ko'chasi, 108-uy</li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        &copy; 2024 Wedding Video Pro. Barcha huquqlar himoyalangan.
+      </div>
+    </footer>
+
+    
     
     <script src="./script.js"></script>
   </body>
